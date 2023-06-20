@@ -2,8 +2,7 @@ html {
   background-color: #E4E9FD;
   background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
   min-height: 1000px;
-  font-family: 'Montserrat', sans-serif;
-  
+  font-family: 'helvetica neue';
 }
 
 h1 {
@@ -27,9 +26,8 @@ h1 {
 .item {
   min-height: 70px;
   display: flex;
-  text-align: center;
+  align-items: center;
   border-bottom: 1px solid #F1F1F1;
-  margin-right: 50px;
 }
 
 .item:last-child {
@@ -53,10 +51,10 @@ p {
   color: #00204a;
 }
 
-/* form {
+form {
   text-align: center;
-  margin-left: 650px;
-} */
+  margin-left: 20px;
+}
 
 button {
   min-height: 50px;
