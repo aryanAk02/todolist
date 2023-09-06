@@ -8,8 +8,7 @@ const mongoose=require("mongoose");
 
 const app=express();
 
-var items=[];
-var workItems=[];
+
 
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.static("public"));
